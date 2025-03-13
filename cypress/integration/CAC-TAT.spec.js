@@ -260,7 +260,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
             })
     })
 
-    it.only('Deve encontrar o elemento com o gato', () => {
+    it('Deve encontrar o elemento com o gato', () => {
         cy.get('#cat')
             .invoke('show')
             .should('be.visible')
